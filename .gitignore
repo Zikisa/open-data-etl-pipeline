@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.json
+!package.json
+
+# Google Cloud credentials
+application_default_credentials.json
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database files
+*.db
+*.sqlite
